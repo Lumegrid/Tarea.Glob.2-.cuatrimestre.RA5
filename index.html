@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Productos del Supermercado</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Consulta de Productos</h1>
+  <label for="categoria">Elige una categoría:</label>
+  <select id="categoria">
+    <option value="Congelados">Congelados</option>
+    <option value="Fruta">Fruta</option>
+    <option value="Verdura">Verduras</option>
+    <option value="Bebidas">Bebidas</option>
+  </select>
+  <button onclick="cargarDatos()">Seleccionar</button>
+
+  <h2>Datos desde XML</h2>
+  <div id="resultadosXML"></div>
+
+  <h2>Datos desde JSON</h2>
+  <div id="resultadosJSON"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
